@@ -1,0 +1,228 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  min-width: 100%;
+  text-align: center;
+}
+.wrapper{
+  height: 930px;
+  background: 
+  linear-gradient(rgba(0, 1, 15, 0.73),
+  rgba(8, 7, 16, 0.75)),
+  url(./images/books.png)no-repeat;
+  background-size: cover;
+}
+
+/******************nav menu style.....flicking************/
+nav img{
+  height: 200px;
+  width: 200px;
+  border: 1px solid #000;
+  border-radius: 50%;
+  transition: all .5s;
+}
+.upper-nav{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+nav ul li,a{
+  list-style-type: none;
+  text-decoration-line: none;
+}
+nav img:hover{
+  transform: scale(1.2) rotate(360deg);
+}
+
+/*nav ul li{
+   display:inline-block;
+  }*/
+nav ul li:last-child{
+    border-right: none;
+  }
+nav ul li a{
+  font-size: 22px;
+  padding: 6px 16px;
+  padding-top: 0;
+  color: whitesmoke;
+  text-align: center;
+  }
+
+  li a:hover {
+  background-color: #111;
+}
+.active {
+  float: right;
+  color: blue;
+   background-color: rgba(72, 87, 13, 0.85);
+   list-style-type: none;
+}
+
+/**************************about-me styleup!!!!**********/
+.about-me p{
+  margin: auto;
+  padding-top: 85px;
+  color: #ffffff;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 28px;
+  justify-content: center;
+}
+.about-me{
+  padding-bottom: 45px;
+}
+.about-me h1{
+  margin-left: 550px;
+  height: 50px;
+  width: 140px;
+  background: lawngreen;
+  border: 2px solid lawngreen;
+  border-radius: 25px;
+}
+/******************courses that stressed me juring the exams*********/
+.courses-content{
+  float: right;
+  width: 960px;
+  list-style-type: none;
+ /* background-color: rgba(54,232,229,0.1);*/
+  margin-top:0;
+  padding-left: 90px;
+  margin-left: 0;
+  border-bottom: 1px dotted gray;
+}
+.courses-content ul li, img{
+  /*border-radius: 25px;*/
+  width: 200px;
+  height: 150px;
+  display: inline-block;
+}
+.courses-content h1{
+  text-align: center;
+  background:gray;
+}
+/*********************achieve in style***************************/
+.achieve-cont{
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+}
+.achieve-cont1, .achieve-cont2, .achieve-cont3{
+background: #fff;
+height: 360px;
+width: 260px;
+border-radius: 25px;
+border: 3px solid white;
+background: linear-gradient(rgba(30, 79, 56, 0.73),rgba(30, 44, 25, 0.43));
+}
+
+/*,,,,,,,,,,,,,,,,,,,,,,cards........................*/
+.header-title{
+  font-size:18px;
+  font-family:cursive;
+  color:lawngreen;
+}
+ .achieve-cont p{
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 1em;
+color: #1a2fff;
+font-weight: 12px;
+background: linear-gradient(rgba(80, 3, 2, 0.46),rgba(89, 2, 11, 0.57))
+}
+.card-action a{
+  background-color:black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color:azure;
+}
+/*987656789098765678resumeresume.............*/
+.wrapper-res h1{
+  font: 1.5/1.5 arial;
+  text-align: center;
+}
+.wrapper-res li{
+  display: inline-block;
+  justify-content: space-between;
+  height: 190px;
+  width: 195px;
+  background: #017011;
+  border: 1px solid #000;
+  border-radius: 22px 120px 45px 122px;
+  font-size: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  line-height: 1.5;
+  color: #ea428c;
+  list-style-type: none;
+  text-decoration-line: none;
+  text-align: center;
+  padding: 60px 0;
+}
+@media (min-width: 769px){
+  .wrapper{
+    min-height: calc(100vh - 89px);
+    margin: 0 auto;
+  }
+}
+.contact-wrap{
+  background: rgba(197, 173, 103, 0.80);
+  height: 600px;
+}
+.contact-wrap,
+.message p{
+  font-family: 'lato' sans-serif;
+  color: #1a2fff;
+  font-size: 25px;
+}
+.contact-wrap,
+.message h1{
+  font-family: cursive;
+  color: #fff;
+  font-size: 31px;
+}
+form{
+  width: 96%;
+  max-width: 450px;
+  position: relative;
+  display: block;
+  margin: 6% 35%;
+}
+
+input,textarea{
+  margin: 20px auto;
+  display:block;
+  padding: 10.5px;
+  width: 100%;
+  max-width: 360px;
+  background-color: rgba(144, 228, 68, 0.67);
+  font-size: 100%;
+  outline: none;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  transition: border 0.3s ease-out;
+}
+footer{
+  font-size: 1.6em;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin:auto;
+  padding-left: 90px;
+  border-top: 1px dotted gray;
+  background: #4a148c;
+  display: inline-table;
+}
+footer ul li,a{
+  display:inline-block;
+  list-style-type: none;
+  justify-content: space-around;
+  text-align: center;
+  list-style-type: none;
+  text-decoration-line: none;
+  color: lawngreen;
+}
+  
+

@@ -1,0 +1,229 @@
+  <div style="background-color:black;text-align:center;color:white;padding:20px;">
+    <h2>London</h2>
+    <p>2017According to the Real Estate Information Center (REIC) forecasted that the real estate market are in line with economic<br/> condition and will be continuously recovering from 2016 due to low interest rate and the increase in job security. The NESDB forcasts to see a brighter future than last year and that consumers will gain more confident level in spending money in the property market. Due to slowdown economy, major real estate developers had to review and adjust their plan throughout to revise their plan and cope with the current and forecast the future. Some professionals managed well to capture foreign investors into high-end segment. The reseach from DBS shows that mid-range and high end condons were still doing well with +8% demand increase in mid-range, +3% in high-end and +14% in super luxury segment. Furthermore, government’s economic stimulus package on expansion of BTS lines potentially lead to the sales improvement of related areasLondon is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+</div>
+
+
+<!DOCTYPE html>
+<html lang="en-US" style="height: 100%;">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <style>
+    body{margin: 0;}
+    ul{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    }
+  li{
+    float: left;
+    border-right: 1px solid #fff;
+  }
+  li:last-child{
+    border-right: none;
+  }
+  li a{
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover {
+  background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+  .container1{
+    position: relative;
+  }
+  .container1 img{
+  margin-top: 35px;
+  height: auto;
+  max-width: 100%;
+  opacity: 0.8;
+  backface-visibility: hidden;
+}
+.container1 .text{
+  color: black;
+  font-size: 22px;
+  padding: 10px 25px;
+}
+
+  @media screen and (max-width: 600px){
+    ul.upnav li.right, 
+    ul.upnav li {float: none;}
+}
+  </style>
+  <nav>
+    <ul class="upnav">
+        <li><i class="account-circle"><a href="/PROFILE/">PROFILE</a></i></li>
+        <li><a href="/PROJECTS/">PROJECTS</a></li>
+        <li><a href="#">FOLLOW</a></li>
+    <li style="float:right"><a class="active" href="#coment">comment</a></li>
+  </ul>
+</nav>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="sassy.css">
+<title>SASSY</title>
+</head>
+<body>
+  <div class="container1">
+    <img src="bitcoin.png" alt="" >
+      <div class="content">
+        <div class="text"><h2>London</h2>
+        <p>2017According to the Real Estate Information Center (REIC) forecasted that the real estate market are in line with economic<br/> condition and will be continuously recovering from 2016 due to low interest rate and the increase in job security. The NESDB forcasts to see a brighter future than last year and that consumers will gain more confident level in spending money in the property market. Due to slowdown economy, major real estate developers had to review and adjust their plan throughout to revise their plan and cope with the current and forecast the future. Some professionals managed well to capture foreign investors into high-end segment. </p></div>
+      </div>
+</div>
+</body>
+
+
+
+
+.achieve ul{
+  padding-left: 78px;
+  margin-bottom: 18px;
+  margin-left: 20px;
+}
+
+/*@media only screen and (min-width:601px;)*/
+
+.row .col .m4{
+  width:33.33333%
+  margin-left0;
+}
+.row .col{
+  float: left;
+  box-sizing: border-box;
+  padding:0 0.75rem;
+}
+
+.row{
+  content: "";
+  display: inline-block;
+  clear: both;
+  margin-left: -0.75rem;
+  margin-right: -0.75rem;
+}
+.card.small .card-image{
+  max-height: 60%;
+  overflow: hidden;
+}
+.card .card-image{
+  position: relative;
+}
+.card.small .card-content{
+  height: 255px;
+  font-size: 16px;
+  font-weight: 300;
+}
+.card .card-content{
+  padding: 20px;
+  border-radius: 0 0 2px 2px;
+}
+.card.small .card-title{
+  font-weight: 400;
+}
+.card .card-image .card-title{
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 20px;
+}
+.card .card-title{
+  font-size: 24px;
+}
+.card.small .card-content p{
+  font-weight: 300 ! important;
+}
+.card .card-content{
+  margin: 0;
+  color: inherit;
+}
+
+
+div class="row">
+      <div class="col s12 m4">
+        <div class="card small">
+          <div class="card-image">
+            <img src="bitcoin.png" alt="">
+            <span class="card-title"><h1>My philosophy</h1></span>
+         </div>
+         <div class="card-content">
+               <p>"                    To create a user friendly and timeless website that attracts human eyes.                   "</p>
+          </div>
+        </div>
+      </div>
+  <!--*************mission**********-->
+  <section>
+  <div class="col s12 m4">
+    <div class="card small">
+      <div class="card-image">
+        <img src="giphy (1).gif" alt="">
+        <span class="card-title"><h1>My mission</h1></span>
+      </div>
+        <div class="card-content">
+              <p>I am highly motivated, enthusiastic and very reliable developer with <b>i can make it better attitude</b> i want to work with google develpers</p></li>      
+        </div>
+      </div>
+    </div>
+      <!--*************process**********-->
+  <div class="col s12 m4">
+    <div class="card small">
+      <div class="card-image">
+        <img src="cart.png" alt="">
+        <span class="card-title"><h1>My process</h1></span>
+      </div>
+        <div class="card-content">
+              <p>When am undertaking a project, i don't just complete it, but i go an extra mile and make it better than requested</p></li>      
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+</section>
+</body>
+
+</html>
+
+
+<!-- Add icon library -->
+<div class="card">
+  <img src="cart.png" alt="" style="width:100%">
+  <div class="container">
+    <h1>John Doe</h1>
+    <p class="title">CEO & Founder, Example</p>
+    <p>NIBS College</p>
+    <a href="#"><i class="fa fa-telegram"></i></a> 
+    <a href="#"><i class="fa fa-twitter"></i></a> 
+    <a href="#"><i class="fa fa-linkedin"></i></a> 
+    <a href="#"><i class="fa fa-facebook"></i></a> 
+    <p><button>Contact</button></p>
+  </div>
+</div>
+
+<footer class="page-footer">
+    <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">Footer Content</h5>
+                <p class="grey-text text-lighten-4">I am very social and would like to hear from you! feel free to send me an email and don't forget to follow me on istagram,facebook and twitter.</p>
+          </div>
+        <div class="footer-copyright">
+          <div class="container">
+            © 2014 Copyright @PETER PATEL
+          </div>
+    </div>
+ </footer>
+  </html>
